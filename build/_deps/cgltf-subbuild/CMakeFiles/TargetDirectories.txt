@@ -1,3 +1,0 @@
-/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/cgltf-populate.dir
-/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/edit_cache.dir
-/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/rebuild_cache.dir
