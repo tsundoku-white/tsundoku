@@ -1,0 +1,14 @@
+# Target labels
+ stb-populate
+# Source files and their labels
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/CMakeFiles/stb-populate
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/CMakeFiles/stb-populate.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/CMakeFiles/stb-populate-complete.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-build.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-configure.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-download.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-install.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-mkdir.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-patch.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-test.rule
+/home/chris/CC++/tsundoku/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-update.rule

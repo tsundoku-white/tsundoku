@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/core/platform.cpp.o -c /home/chris/CC++/tsundoku/src/core/platform.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/core/platform.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/core/platform.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/core/entity.cpp.o -c /home/chris/CC++/tsundoku/src/core/entity.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/core/entity.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/core/entity.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/core/scene.cpp.o -c /home/chris/CC++/tsundoku/src/core/scene.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/core/scene.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/core/scene.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/vk_context.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/vk_context.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/vk_context.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/vk_context.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/swapchain.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/swapchain.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/swapchain.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/swapchain.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/render_pass.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/render_pass.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/render_pass.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/render_pass.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/pipeline.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/pipeline.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/pipeline.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/pipeline.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/framebuffer.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/framebuffer.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/framebuffer.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/framebuffer.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/commandbuffer.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/commandbuffer.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/commandbuffer.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/commandbuffer.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/sync.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/sync.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/sync.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/sync.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/frame_cap.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/frame_cap.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/frame_cap.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/frame_cap.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/vertex_buffer.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/vertex_buffer.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/vertex_buffer.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/vertex_buffer.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/descriptor_set.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/descriptor_set.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/descriptor_set.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/descriptor_set.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/vulkan/render_system.cpp.o -c /home/chris/CC++/tsundoku/src/vulkan/render_system.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/vulkan/render_system.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/vulkan/render_system.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/renderer/camera_vulkan.cpp.o -c /home/chris/CC++/tsundoku/src/renderer/camera_vulkan.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/renderer/camera_vulkan.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/renderer/camera_vulkan.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku_lib.dir/src/components/camera.cpp.o -c /home/chris/CC++/tsundoku/src/components/camera.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/components/camera.cpp",
+  "output": "CMakeFiles/tsundoku_lib.dir/src/components/camera.cpp.o"
+},
+{
+  "directory": "/home/chris/CC++/tsundoku/build",
+  "command": "/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/g++ -DSHADER_PATH=\\\"/home/chris/CC++/tsundoku/build/shaders/\\\" -I/home/chris/CC++/tsundoku/src -I/home/chris/CC++/tsundoku/build/_deps/cgltf-src -I/home/chris/CC++/tsundoku/build/_deps/stb-src -isystem /nix/store/axr5s1q5jmjsw3f2754xdm6q6rmyy12w-vulkan-headers-1.4.341.0/include -isystem /nix/store/df6d1ggswpdwjyj36zwh93ayhvn0nnpk-glm-1.0.2/include -isystem /nix/store/a4f2nkikh30hflw5g8wrhz6rmjh26r5f-glfw-3.4/include -std=gnu++23 -fno-omit-frame-pointer -g -o CMakeFiles/tsundoku.dir/src/main.cpp.o -c /home/chris/CC++/tsundoku/src/main.cpp",
+  "file": "/home/chris/CC++/tsundoku/src/main.cpp",
+  "output": "CMakeFiles/tsundoku.dir/src/main.cpp.o"
+}
+]

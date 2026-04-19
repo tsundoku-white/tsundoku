@@ -1,0 +1,5 @@
+/home/chris/CC++/tsundoku/build/CMakeFiles/tsundoku_lib.dir
+/home/chris/CC++/tsundoku/build/CMakeFiles/tsundoku.dir
+/home/chris/CC++/tsundoku/build/CMakeFiles/tsundoku_shaders.dir
+/home/chris/CC++/tsundoku/build/CMakeFiles/edit_cache.dir
+/home/chris/CC++/tsundoku/build/CMakeFiles/rebuild_cache.dir

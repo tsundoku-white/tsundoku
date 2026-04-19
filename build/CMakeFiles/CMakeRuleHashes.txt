@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+997467a1e9261834c90489a8e8be8857 CMakeFiles/tsundoku_shaders
+c10bea9ce41a99beed4ed4458d4ad7da shaders/frag.spv
+a93e8d44b1fc2c1ce48ad9c501c26d4b shaders/vert.spv

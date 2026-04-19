@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tsundoku_lib.dir/src/components/camera.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/components/camera.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/core/entity.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/core/entity.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/core/platform.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/core/platform.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/core/scene.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/core/scene.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/renderer/camera_vulkan.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/renderer/camera_vulkan.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/commandbuffer.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/commandbuffer.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/descriptor_set.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/descriptor_set.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/frame_cap.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/frame_cap.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/framebuffer.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/framebuffer.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/pipeline.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/pipeline.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/render_pass.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/render_pass.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/render_system.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/render_system.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/swapchain.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/swapchain.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/sync.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/sync.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/vertex_buffer.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/vertex_buffer.cpp.o.d"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/vk_context.cpp.o"
+  "CMakeFiles/tsundoku_lib.dir/src/vulkan/vk_context.cpp.o.d"
+  "libtsundoku_lib.a"
+  "libtsundoku_lib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tsundoku_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/cgltf-populate"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/cgltf-populate.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/cgltf-populate-complete.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-build.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-configure.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-download.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-install.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-patch.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-test.rule"
+		},
+		{
+			"file" : "/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cgltf-populate"
+		],
+		"name" : "cgltf-populate"
+	}
+}

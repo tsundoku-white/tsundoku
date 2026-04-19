@@ -1,0 +1,14 @@
+# Target labels
+ cgltf-populate
+# Source files and their labels
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/cgltf-populate
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/cgltf-populate.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/CMakeFiles/cgltf-populate-complete.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-build.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-configure.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-download.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-install.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-mkdir.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-patch.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-test.rule
+/home/chris/CC++/tsundoku/build/_deps/cgltf-subbuild/cgltf-populate-prefix/src/cgltf-populate-stamp/cgltf-populate-update.rule
