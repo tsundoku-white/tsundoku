@@ -16,11 +16,11 @@
 [x] vulkan init
 [x] vert & inde drawing
 [x] camera
-[ ] model
+[x] model
 [ ] light
 
 [ ] baked lighting (voxel based volume)
 [ ] scripting 
 [ ] engine dll
-[ ] maltiplatform (samsung, window, linux, mac)
+[ ] maltiplatform (window, linux, mac)
 
