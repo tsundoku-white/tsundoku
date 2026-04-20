@@ -1,10 +1,11 @@
 #include "pipeline.h"
 #include "core/common.h"
 #include "renderer/camera_vulkan.h"
+#include "renderer/model_vulkan.h"
 #include "vulkan/swapchain.h"
 #include "vulkan/vk_context.h"
 #include "vulkan/render_pass.h"
-#include "vulkan/vertex_buffer.h"
+#include "components/model.h"
 #include <fstream>
 #include <vulkan/vulkan_core.h>
 
@@ -35,8 +36,8 @@ namespace tsundoku
     VkPipelineShaderStageCreateInfo shader_stages[] =
     {vert_shader_stage_info, frag_shader_stage_info};
 
-    auto bindingDescription    = Vertex::getBindingDescription();
-    auto attributeDescriptions = Vertex::getAttributeDescriptions();
+    auto bindingDescription    = Model::Vertex::getBindingDescription();
+    auto attributeDescriptions = Model::Vertex::getAttributeDescriptions();
 
     VkPipelineVertexInputStateCreateInfo vertex_input_info{};
     vertex_input_info.sType                           = VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO;
@@ -119,17 +120,31 @@ namespace tsundoku
     color_blending.blendConstants[2] = 0.0f;
     color_blending.blendConstants[3] = 0.0f;
 
-    VkDescriptorSetLayout descriptor_set_layout = camera_vulkan.get_descriptor_set_layout();
+    // set=0: camera, set=1: model — created via static factory, no instance needed
+    VkDescriptorSetLayout camera_layout = camera_vulkan.get_descriptor_set_layout();
+    m_model_layout                      = ModelVulkan::create_layout(m_device);
+
+    VkDescriptorSetLayout set_layouts[] = { camera_layout, m_model_layout };
 
     VkPipelineLayoutCreateInfo pipeline_layout_info{};
     pipeline_layout_info.sType                  = VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO;
-    pipeline_layout_info.setLayoutCount         = 1;
-    pipeline_layout_info.pSetLayouts            = &descriptor_set_layout;
+    pipeline_layout_info.setLayoutCount         = 2;
+    pipeline_layout_info.pSetLayouts            = set_layouts;
     pipeline_layout_info.pushConstantRangeCount = 0;
     pipeline_layout_info.pPushConstantRanges    = nullptr;
 
     if (vkCreatePipelineLayout(m_device, &pipeline_layout_info, nullptr, &m_pipeline_layout) != VK_SUCCESS)
       LOG_ERR("[Pipeline] failed to create pipeline layout");
+
+    VkPipelineDepthStencilStateCreateInfo depthStencil{};
+    depthStencil.sType = VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO;
+    depthStencil.depthTestEnable = VK_TRUE;
+    depthStencil.depthWriteEnable = VK_TRUE;
+    depthStencil.depthCompareOp = VK_COMPARE_OP_LESS;
+    depthStencil.depthBoundsTestEnable = VK_FALSE;
+    depthStencil.stencilTestEnable = VK_FALSE;
+    depthStencil.minDepthBounds = 0.0f;
+    depthStencil.maxDepthBounds = 1.0f;
 
     VkGraphicsPipelineCreateInfo pipeline_info{};
     pipeline_info.sType               = VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO;
@@ -140,7 +155,7 @@ namespace tsundoku
     pipeline_info.pViewportState      = &viewport_state;
     pipeline_info.pRasterizationState = &rasterizer;
     pipeline_info.pMultisampleState   = &multisampling;
-    pipeline_info.pDepthStencilState  = nullptr;
+    pipeline_info.pDepthStencilState  = &depthStencil;
     pipeline_info.pColorBlendState    = &color_blending;
     pipeline_info.pDynamicState       = &dynamic_state;
     pipeline_info.layout              = m_pipeline_layout;
@@ -161,7 +176,8 @@ namespace tsundoku
 
   Pipeline::~Pipeline()
   {
-    if (!m_device || (!m_graphics_pipeline && !m_pipeline_layout)) return;
+    if (!m_device) return;
+    vkDestroyDescriptorSetLayout(m_device, m_model_layout, nullptr);
     vkDestroyPipeline(m_device, m_graphics_pipeline, nullptr);
     vkDestroyPipelineLayout(m_device, m_pipeline_layout, nullptr);
   }

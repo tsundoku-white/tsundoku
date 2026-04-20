@@ -8,6 +8,7 @@ namespace tsundoku
   {
     public:
       Camera() = default;
+      ~Camera() = default;
 
       Transform transform = {};
       bool is_primary = false;
@@ -17,7 +18,11 @@ namespace tsundoku
       float far_clipping_plane = 4'000.f;
 
       glm::mat4 projection_matrix;
-      glm::mat4 view_matrix;
+      glm::mat4 view_matrix = glm::lookAt(
+          glm::vec3(0.f, 0.f, 2.f),
+          glm::vec3(0.f, 0.f, 0.f),
+          glm::vec3(0.f, 1.f, 0.f)
+          );
 
     private:
       void update(float delta_time) override;

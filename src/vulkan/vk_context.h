@@ -22,7 +22,10 @@ namespace tsundoku
       VkDevice         get_device()          const { return m_device         ; }
       VkQueue          get_graphics_queue()  const { return m_graphics_queue ; }
       VkQueue          get_present_queue()   const { return m_present_queue  ; }
-      VkSurfaceKHR     get_surface()         const { return m_surface        ; }
+      VkSurfaceKHR     get_surface()         const { return m_surface        ; } 
+      VkCommandPool    get_command_pool()    const { return m_command_pool   ; }
+
+      VkCommandBuffer  get_buffers(uint32_t frame) const { return m_command_buffers[frame]; }
 
       struct QueueFamilyIndices
       {
@@ -43,6 +46,10 @@ namespace tsundoku
         std::vector<VkPresentModeKHR>   present_modes;
       };
 
+      void begin(uint32_t frame);
+      void end(uint32_t frame);
+      void reset(uint32_t frame);
+
     private:
       VkInstance               m_instance         = VK_NULL_HANDLE;
       VkDebugUtilsMessengerEXT m_debug_messenger  = VK_NULL_HANDLE;
@@ -51,13 +58,17 @@ namespace tsundoku
       VkQueue                  m_graphics_queue   = VK_NULL_HANDLE;
       VkQueue                  m_present_queue    = VK_NULL_HANDLE;
       VkSurfaceKHR             m_surface          = VK_NULL_HANDLE;
-      QueueFamilyIndices       m_queue_families   = {};
+      VkCommandPool            m_command_pool     = VK_NULL_HANDLE;
+
+      std::vector<VkCommandBuffer> m_command_buffers = {};
+      QueueFamilyIndices           m_queue_families  = {};
 
       void create_instance();
       void setup_debug_messenger();
       void create_surface(GLFWwindow *window_handle);
       void pick_physical_device();
       void create_logical_device();
+      void create_command_buffers();
   };
 } // namespace tsundoku
 

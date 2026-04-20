@@ -41,7 +41,7 @@ target_compile_options(${PROJECT_NAME} PRIVATE
 nvidia-offload ./tsundoku &
 sleep 5
 
-# 2. Record CPU samples for 15 seconds
+# 2. Record CPU samples for 120 seconds
 perf record -F 99 -p $(pgrep tsundoku) -g -- sleep 120
 
 # 3. Dump the samples

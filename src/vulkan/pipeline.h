@@ -24,6 +24,7 @@ namespace tsundoku
       VkDevice         m_device            = VK_NULL_HANDLE;
       VkPipeline       m_graphics_pipeline = VK_NULL_HANDLE;
       VkPipelineLayout m_pipeline_layout   = VK_NULL_HANDLE;
+      VkDescriptorSetLayout m_model_layout = VK_NULL_HANDLE;
 
       void create_pipeline();
       static std::vector<char> read_file(std::string path);

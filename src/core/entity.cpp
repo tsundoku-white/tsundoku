@@ -4,8 +4,8 @@ namespace tsundoku
 {
   Entity::Entity()
   {
-    static uint32_t next_id = 1;
-    id = next_id++;
+    static uint32_t next_id = 0;
+    id = ++next_id;
     LOG_INFO("[Entity] Created with ID: {}", id);
   }
 

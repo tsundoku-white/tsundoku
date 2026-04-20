@@ -42,16 +42,17 @@ set(LIB_SOURCES
     src/vulkan/render_pass.cpp
     src/vulkan/pipeline.cpp
     src/vulkan/framebuffer.cpp
-    src/vulkan/commandbuffer.cpp
+    src/vulkan/buffer.cpp
     src/vulkan/sync.cpp
     src/vulkan/frame_cap.cpp
-    src/vulkan/vertex_buffer.cpp
     src/vulkan/descriptor_set.cpp
     src/vulkan/render_system.cpp
 
     src/renderer/camera_vulkan.cpp
+    src/renderer/model_vulkan.cpp
 
     src/components/camera.cpp
+    src/components/model.cpp
 )
 
 add_library(tsundoku_lib STATIC ${LIB_SOURCES})
@@ -88,6 +89,7 @@ set(SPIRV_OUTPUT_DIR "${CMAKE_BINARY_DIR}/shaders")
 
 target_compile_definitions(tsundoku_lib PUBLIC
     SHADER_PATH="${SPIRV_OUTPUT_DIR}/"
+    ASSET_PATH="${CMAKE_SOURCE_DIR}/src/assets/"
 )
 
 find_program(GLSLC glslc)

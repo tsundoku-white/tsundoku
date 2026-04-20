@@ -157,6 +157,7 @@ namespace tsundoku
       void set_resized(bool v) { m_resized = v; }
 
       bool key_pressed(KeyMap key);
+      glm::vec2 get_mouse_delta();
 
       GLFWwindow *get_handle();
       float get_aspect() const { return static_cast<float>(m_width) / static_cast<float>(m_height); }
@@ -168,5 +169,10 @@ namespace tsundoku
       bool        m_resized = false;
 
       static void framebufferResizeCallback(GLFWwindow* window, int width, int height);
+      static void mouseMoveCallback(GLFWwindow* window, double xpos, double ypos);
+      double mouse_x;
+      double mouse_y;
+      double mouse_last_x;
+      double mouse_last_y;
   };
 }
